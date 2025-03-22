@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('Background.jpg'); /* Caminho para a sua imagem de fundo */
+    background-image: url('background.jpg'); /* Caminho para a sua imagem de fundo */
     background-size: cover; /* Faz com que a imagem cubra toda a tela */
     background-position: top center; /* A imagem começa na parte superior e é centralizada */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
