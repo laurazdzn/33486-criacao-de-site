@@ -4,22 +4,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('background.jpg'); /* Caminho para a sua imagem de fundo */
-    background-size: cover; /* Faz com que a imagem cubra toda a tela */
-    background-position: top center; /* A imagem começa na parte superior e é centralizada */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    height: 100vh; /* Garante que o body ocupe toda a altura da janela */
+    background-image: url('background.jpg'); 
+    background-size: cover; 
+    background-position: top center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
 }
 
 .sidebar {
     width: 240px;
-    height: calc(100vh - 50px); /* Ajusta a altura para ocupar toda a tela, mas com 50px a mais na parte inferior */
-    background: linear-gradient(to bottom, #ffffff, #e4e3e3); /* Gradiente de cinza para branco */
+    height: calc(100vh - 50px); 
+    background: linear-gradient(to bottom, #ffffff, #e4e3e3); 
     color: black;
     position: fixed;
     z-index: 1000;
-    overflow-y: auto; /* Permite rolagem se o conteúdo exceder a altura */
-    padding: 18px 10px 50px 18px; /* Ajuste do padding para adicionar mais espaço na parte inferior */
+    overflow-y: auto; 
+    padding: 18px 10px 50px 18px; 
 }
 
 .sidebar .logo-projeto {
@@ -30,18 +30,18 @@ body {
 /* Ajuste na lista não ordenada */
 .sidebar nav ul {
     list-style: none;
-    padding-left: 0; /* Remove qualquer preenchimento à esquerda */
-    margin-left: 0; /* Remove qualquer margem à esquerda */
+    padding-left: 0; 
+    margin-left: 0;
 }
 
 /* Ajuste nos itens da lista */
 .sidebar nav ul li {
-    margin: 10px 0; /* Diminui o espaço entre os itens da lista */
+    margin: 10px 0; 
 }
 
 .sidebar nav ul li {
-    margin: 5px 0; /* Diminui o espaço entre os itens da lista */
-    padding: 0; /* Remove qualquer espaçamento interno (se necessário) */
+    margin: 5px 0;
+    padding: 0;
 }
 
 .sidebar nav ul li a {
@@ -51,35 +51,35 @@ body {
 
 /* Estilizando a seção "Sobre nós" */
 .sobre-nos {
-    display: block; /* Garante que o elemento seja um bloco */
+    display: block; 
     color: rgb(0, 0, 0);
-    margin-top: 30px; /* Ajuste o espaçamento superior */
+    margin-top: 30px; 
     font-size: 20px;
-    font-weight: bold; /* Deixar o título mais destacado */
+    font-weight: bold; 
 }
 
 /* Removendo qualquer negrito do texto "Sobre nós" */
 .sobre-nos span {
-    font-weight: normal; /* Garante que o texto não tenha negrito */
+    font-weight: normal;
 }
 
 .sobre-nos::after {
     content: "";
     display: block;
-    width: 95%; /* Controla a largura da linha */
-    height: 2px; /* Define a espessura da linha */
-    background: linear-gradient(to right, white, black); /* Degradê de branco para preto */
-    margin-left: 2px; /* Centraliza a linha */
-    margin-right: auto; /* Centraliza a linha */
-    margin-top: 5px; /* Adiciona distância entre o texto e a linha */
+    width: 95%; 
+    height: 2px; 
+    background: linear-gradient(to right, white, black); 
+    margin-left: 2px; 
+    margin-right: auto; 
+    margin-top: 5px; 
 }
 
 /* Estilizando o bloco de texto */
 .texto-bloco {
     color: rgb(0, 0, 0);
-    margin-top: 15px; /* Ajusta o espaço entre o título e o texto */
-    font-size: 16px; /* Deixa o texto mais legível */
-    line-height: 1.6; /* Ajusta o espaçamento entre as linhas para melhorar a legibilidade */
+    margin-top: 15px; 
+    font-size: 16px;
+    line-height: 1.6; 
 }
 
 main {
@@ -94,8 +94,8 @@ main {
 
 .user-options button {
     background: linear-gradient(to bottom, white, #f1f0f0); 
-    border: 1px solid #9f9f9f; /* Borda preta */
-    padding: 10px 20px; /* Espaçamento interno */
+    border: 1px solid #9f9f9f;
+    padding: 10px 20px;
     padding-top: 15px;
     font-size: 16px;
     cursor: pointer; 
@@ -103,9 +103,9 @@ main {
 }
 
 .user-options button:hover {
-    background-color: rgb(34, 34, 34); /* Fundo preto ao passar o mouse */
-    color: rgb(0, 0, 0); /* Texto branco ao passar o mouse */
-    border-color: rgb(0, 0, 0); /* Borda branca ao passar o mouse */
+    background-color: rgb(34, 34, 34); 
+    color: rgb(0, 0, 0); 
+    border-color: rgb(0, 0, 0); 
     border: 1.8px solid black;
 }
 
@@ -115,13 +115,13 @@ main {
 }
 
 .top-nav a {
-    background-color: transparent; /* Fundo transparente */
-    border: 2px solid #9f9f9f; /* Borda preta */
-    padding: 8px 20px 8px; /* Espaçamento interno */
-    font-size: 16px; /* Tamanho da fonte */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    color: black; /* Cor do texto */
-    transition: background-color 0.3s ease, border-color 0.3s ease; /* Transição suave */
+    background-color: transparent; 
+    border: 2px solid #9f9f9f;
+    padding: 8px 20px 8px; 
+    font-size: 16px; 
+    text-decoration: none; 
+    color: black; 
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
 }
 
 .top-nav a:hover {
@@ -136,10 +136,10 @@ main {
     position: absolute;
     top: -20px; 
     left: 50%;
-    width: 100vw; /* Ocupa 100% da largura da tela */
+    width: 100vw;
     height: 1.4px;
     background-color: #404040;
-    transform: translateX(-50%); /* Centraliza corretamente */
+    transform: translateX(-50%);
 }
 
 /* Linha abaixo */
@@ -148,10 +148,10 @@ main {
     position: absolute;
     bottom: -10.4px; 
     left: 50%;
-    width: 100vw; /* Ocupa 100% da largura da tela */
+    width: 100vw; 
     height: 1.4px;
     background-color: #404040;
-    transform: translateX(-50%); /* Centraliza corretamente */
+    transform: translateX(-50%); 
 }
 
 .search-bar {
@@ -173,27 +173,38 @@ main {
 }
 
 .imagem-banda {
-    width: 100%; /* A imagem ocupará toda a largura disponível */
-    max-width: 970px; /* Largura máxima de 970px */
-    height: 310px; /* Altura da imagem */
-    object-fit: cover; /* A imagem preenche a área do contêiner */
-    object-position: center; /* Centraliza a imagem */
-    display: block; /* Garante que a imagem seja tratada como bloco */
-    margin: 10px 40px; /* Centraliza a imagem */
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Sombra suave nas bordas */
-    border-radius: 15px; /* Borda arredondada para a imagem */
-    position: relative; /* Permite que o player seja posicionado em relação à imagem */
+    width: 100%; 
+    max-width: 970px; 
+    height: 310px; 
+    object-fit: cover; 
+    object-position: center; 
+    display: block; 
+    margin: 10px 40px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); 
+    border-radius: 15px; 
+    position: relative; 
+}
+
+.image-container {
+    position: relative;
+    display: inline-block; 
+}
+
+.image-container img {
+    display: block; 
+    max-width: 100%; 
+    height: auto;
 }
 
 .popup {
-    text-align: center;
-    background-color: white;
+    position: absolute;
+    bottom: 35px;  
+    left: 50px;     
+    background-color: rgba(255, 255, 255, 0.877);
     padding: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    width: fit-content;
-    margin: 10px auto;
-    border-radius: 15px; 
-    overflow: hidden; 
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .info-bloco {
@@ -220,25 +231,19 @@ main {
 }
 
 #spotify-player {
-    position: absolute; /* Mantém a posição absoluta em relação ao elemento pai */
-    top: 70.5%; /* Posição de 70.5% da altura do container */
-    left: 36.5%; /* Posição de 36.5% da largura do container */
-    transform: translate(-50%, -50%); /* Centraliza o player na posição definida */
-    z-index: 10; /* Garante que o player fique acima do conteúdo */
-    border-radius: 20px; /* Bordas arredondadas para o player */
-    border: 4px solid white; /* Borda branca */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6); /* Sombra preta ao redor da borda */
-    width: 300px; /* Largura do player */
-    height: 80px; /* Altura do player */
+    width: 300px; 
+    height: 80px; 
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
 }
 
 nav ul {
-    border-left: 3px solid black; /* Linha contínua na lateral esquerda da lista */
-    padding-left: 20px; /* Espaço entre a linha e os itens */
+    border-left: 3px solid black; 
+    padding-left: 20px; 
 }
 
 nav ul li {
-    margin-left: 10px; /* Espaço entre o conteúdo do item e a linha */
+    margin-left: 10px; 
 }
 
 nav ul li a::before {
