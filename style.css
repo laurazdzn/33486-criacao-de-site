@@ -154,6 +154,7 @@ main {
     transform: translateX(-50%); 
 }
 
+/* Configurando barra de pesquisa */
 .search-bar {
     width: 45%;
     position: relative;
