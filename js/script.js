@@ -21,4 +21,11 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
         console.error("Elemento .search-bar não encontrado.");
     }
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        let links = document.querySelectorAll("a");
+        links.forEach(link => {
+            link.setAttribute("target", "_self");
+        });
+    });
 });
